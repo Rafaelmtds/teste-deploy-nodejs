@@ -1,0 +1,38 @@
+NPM - instalar um modulo
+NPX - executar um comando de um modulo
+
+// Rotas / Recursos
+/**
+ * Métodos HTTP:]
+ *
+ * GET    - Busca informações do backend;
+ * POST   - Criar uma informação backend;
+ * PUT    - Alterar uma informação backend;
+ * DELETE - Deletar uma informação backend;
+ */
+
+
+
+ /**
+  * Tipos de Parametro
+  * 
+  * Query: Parametros nomeados enviados na rota apos o "?" (filtro, paginação);
+  * Route: Parametros utilizados para identificar resusos;  
+  * Body : Corpo da requisição, usado para criar ou alterar recursos;
+  */
+
+  /**
+   * Tipos de Banco de Dados
+   * 
+   * SQL   : MySQL, SQLite, PostgreSQL...
+   * NoSQL : MongoDB, CouchDB...
+  */
+
+
+  /**
+   * Driver: SELECT * FROM user;
+   * Query Builder: table('users').select('*').where(). http://knexjs.org/
+   */
+
+   npx knex init - iniciar as congif do bando SQLite com knex
+   Migrations - criar tabelas e manter histórico "controle de versão do banco";
